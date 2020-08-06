@@ -1,0 +1,17 @@
+{
+  "name": "lexi",
+  "productName": "lexi",
+  "version": "1.0.0",
+  "description": "Delightful micro-client for the Datamuse API.",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Freddy Tuxworth",
+    "url": "https://github.com/freddytuxworth/lexi"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../internals/scripts/BabelRegister.js ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}

@@ -1,0 +1,44 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@import '~material-design-icons/./iconfont/material-icons.css';
+@import '~roboto-fontface/css/roboto/roboto-fontface.css';
+
+body {
+  position: relative;
+  height: 100vh;
+  overflow-y: hidden;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: #ececec;
+}
+
+.draggable {
+  -webkit-app-region: drag;
+}
+
+.not-draggable {
+  -webkit-app-region: no-drag;
+}
+
+.mono {
+  font-family: monospace !important;
+}
+
