@@ -52,8 +52,8 @@
     ]
   },
   "build": {
-    "productName": "ElectronReact",
-    "appId": "org.develar.ElectronReact",
+    "productName": "lexi",
+    "appId": "org.freddytuxworth.lexi",
     "files": [
       "dist/",
       "node_modules/",
@@ -84,8 +84,6 @@
     },
     "linux": {
       "target": [
-        "deb",
-        "rpm",
         "AppImage"
       ],
       "category": "Development"
@@ -96,17 +94,18 @@
     },
     "publish": {
       "provider": "github",
-      "owner": "electron-react-boilerplate",
-      "repo": "electron-react-boilerplate",
+      "owner": "freddytuxworth",
+      "repo": "lexi",
       "private": false
     }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akmittal/electron-react-boilerplate.git"
+    "url": "git+https://github.com/freddytuxworth/lexi.giit"
   },
   "author": {
     "name": "Freddy Tuxworth",
+    "email": "none",
     "url": "https://github.com/freddytuxworth/lexi"
   },
   "license": "MIT",
